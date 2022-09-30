@@ -1,92 +1,108 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-## Your Task
+## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This Password Generator webpage allows uers to randomly generate passwords that meet a certain list of criteria.
+* Users will be propted for the length of characters they would like for their password generaion. 
+    * Length of password must be at least 8 characters in length and no more than 129 characters. 
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+* Users will be asked if they would like to include lowercase letters in their password generation.
 
-## User Story
+* Users will be asked if they would like to include Uppercase letters in their password generation.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+* Users will be asked if they would like to include numbers in their password generation.
 
-## Acceptance Criteria
+* Users will be asked if they would like to include special characters in their password generation.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+ Users should use the password generator to create a strong password that provides greater security. 
 
-## Mock-Up
 
-The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+## Visuals
+<!-- Provide the visuals for full display and phone display -->
+This is how the deployed Password Generator website will look
 
-## Grading Requirements
+![The Password Generator application displays a red button to "Generate Password".](./Assets/password%20generator%20page.png)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+When viewing the deployed Password Generator webite on a cell phone the title "Password Generator" will stack in a column and the body inluding the Generat a Password" box and button will shrink in width.   
 
-This Challenge is graded based on the following criteria: 
+![The Password Generator application on cell phone with shrink in width but still display the same content.](./Assets/password%20generator%20page%20on%20cell%20phone.png)
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria.
+ 
+## Usage
+<!-- Provide a list of steps to generate a password -->
+*Utalize the Password Generator webpage through it's Generate Password button locatd in the body of the webpage.*
+* Clicking on the Generate Password button will initiate a series of display prompts to select the criteria to build your password...
 
-### Deployment: 32%
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/generate%20password%20button.png)
 
-* Application deployed at live URL.
+* After clicking on the Generate Password button the first prompt will ask you How Many Characters you would like your password to contain...
 
-* Application loads with no errors.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/how%20many%20characters.png)
 
-* Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
+Character lengeth has to be no less than 8 and no more than 129... 
 
-### Application Quality: 15%
+* If you enter a length less than 8 and click "OK" you will receive an alert that the "Length of password must be at least 8 characters". Clicking ok will stop the prompts.
 
-* Application user experience is intuitive and easy to navigate.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%207.png)
 
-* Application user interface style is clean and polished.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%207%20response.png)
+ 
 
-### Repository Quality: 13%
+*  .Click "OK" and try entering a value of 150 and click "OK". You will receive an alert that the Length of password must be less than 129 characters". Clicking ok will stop the prompts.
 
-* Repository has a unique name.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%20150.png)
 
-* Repository follows best practices for file structure and naming conventions.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%20150%20response.png)
 
-* Repository contains multiple descriptive commit messages.
+*  Clicking on Contact in the navigation will link you to that section on webpage...
 
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%208.png)
+
+
+*  Clicking on Contact in the navigation will link you to that section on webpage...
+
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/lowercase%20letters.png)
+
+*  Clicking on Contact in the navigation will link you to that section on webpage...
+
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/uppercase%20letters.png)
+
+*  Clicking on Contact in the navigation will link you to that section on webpage...
+
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/numeric%20characters.png)
+
+*  Clicking on Contact in the navigation will link you to that section on webpage...
+
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/special%20characters.png)
+
+*  Clicking on Contact in the navigation will link you to that section on webpage...
+
+![Click on the Generate Password button to display promot "How Many Characters"](./Assets/password%20generated.png)
+ 
+## Support
+For help with this webpage please contact 
+|Name       | Email                     |
+|-----------|---------------------------|
+|Lynn Sadler| lynnadelesadler@yahoo.com |
+
+## Roadmap
+Check back to this page as enhacements could be made for usability and optimized display. 
+
+## Authors and acknowledgment
+
+HTML and CSS Sourcecode credit to be given to © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. 
+
+JavaScript Sourcecode credit credit given to Lynn Sadler.
+
+
+
+## License
+N/A
 
 ## Review
 
