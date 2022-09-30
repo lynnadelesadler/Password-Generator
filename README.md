@@ -14,9 +14,18 @@ This Password Generator webpage allows uers to randomly generate passwords that 
 
 * Users will be asked if they would like to include special characters in their password generation.
 
- Users should use the password generator to create a strong password that provides greater security. 
+ *Users should use the password generator to create a strong password that provides greater security.* 
 
+## Access
+<!-- Deployed weblink-->
 
+The password generator webpage can be accessed at the following URL... 
+
+https://lynnadelesadler.github.io/Password-Generator/
+
+The URL of the GitHub repository ...
+
+https://github.com/lynnadelesadler/Password-Generator
 
 ## Visuals
 <!-- Provide the visuals for full display and phone display -->
@@ -52,35 +61,37 @@ Character lengeth has to be no less than 8 and no more than 129...
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%207%20response.png)
  
 
-*  .Click "OK" and try entering a value of 150 and click "OK". You will receive an alert that the Length of password must be less than 129 characters". Clicking ok will stop the prompts.
+*  Click "OK" and try entering a value of 150 and click "OK". You will receive an alert that the Length of password must be less than 129 characters". Clicking ok will stop the prompts.
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%20150.png)
 
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%20150%20response.png)
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Entering a value between 8 and 129 will allow you to proceed with your password selections...
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/characters%208.png)
 
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Click Ok to include lowercase characters or Cancel to not include lowercase characters...
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/lowercase%20letters.png)
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Click Ok to include uppercase characters or Cancel to not include uppercase characters...
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/uppercase%20letters.png)
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Click Ok to include numeric characters or Cancel to not include numeric characters...
+
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/numeric%20characters.png)
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Click Ok to include special characters or Cancel to not include special characters...
+
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/special%20characters.png)
 
-*  Clicking on Contact in the navigation will link you to that section on webpage...
+*  Your password selections including length and the characters chosen with the prompts will auto generat a random password for you to copy. Click Generate Password again to start over!
 
 ![Click on the Generate Password button to display promot "How Many Characters"](./Assets/password%20generated.png)
  
@@ -95,22 +106,11 @@ Check back to this page as enhacements could be made for usability and optimized
 
 ## Authors and acknowledgment
 
-HTML and CSS Sourcecode credit to be given to © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. 
+HTML and CSS and starter JS Sourcecode credit to be given to © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. 
 
-JavaScript Sourcecode credit credit given to Lynn Sadler.
-
+JavaScript optimized and enhanced code credit credit given to Lynn Sadler.
 
 
 ## License
+
 N/A
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
